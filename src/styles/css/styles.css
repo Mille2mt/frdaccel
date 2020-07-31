@@ -1,0 +1,46 @@
+.header {    
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.brandLogo {
+    color: #fff;
+    font-weight: 700; 
+    display: inline;
+}
+
+.menu {
+    display: inline;
+    float: right;
+}
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1498084393753-b411b2d26b34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;    
+}
+
+.hero-content {
+    padding-top: 25vh;
+    text-align: center;
+    text-shadow: 3px 3px rgb(0, 131, 144);
+    color: #fff;
+}
+
+.neon {
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+}
+
+
+
