@@ -4,14 +4,12 @@ const Footer = () => (
     <div class="footer">
         <div class="container">
             <div class="row">
+                <h3 className='brandLogo-footer four columns'>FRD <span className='brandTitle'>Accel</span></h3>   
                 <div className='four columns'>
-                    <h3 className='brandLogo-footer'>FRD <span className='brandTitle'>Accel</span></h3>
-                    <span className='copyright'>&copy; 2020</span>
+                    <li className='footer-list'>Charleston, South Carolina</li>                 
+                    <button className='footer-button'>Contact us</button> 
                 </div>
-                <ul className='footer-list four columns'>
-                    <li>Charleston, South Carolina</li>
-                </ul>
-                <button className='footer-button four columns'>Contact us</button>                
+                <span className='copyright four columns'>&copy; 2020</span>   
             </div>
         </div>
     </div>
