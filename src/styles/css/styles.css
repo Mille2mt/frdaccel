@@ -141,6 +141,7 @@
 
 .title {
     padding-top: 10rem;   
+    text-shadow: 3px 3px rgb(0, 131, 144);
 }
 
 .header {
@@ -148,7 +149,7 @@
     padding-bottom: 2rem;
 }
 
-.neonDark {
+/* .neonDark {
     color: #000;
     text-shadow:
       0 0 5px #fff,
@@ -159,7 +160,7 @@
       0 0 90px #0ff,
       0 0 100px #0ff,
       0 0 150px #0ff;
-}
+} */
 
 h2.number {
     font-size: 5rem;
