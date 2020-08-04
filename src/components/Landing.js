@@ -1,14 +1,10 @@
 import React from 'react';
+import Header from './Header';
 
 const Landing = () => (
     <div className="hero">
-        <div className="header fade-in">
-            <h3 className='brandLogo'>FRD Accel</h3>
-            <div className="menu">
-                <a href="/" className="nav-link">Us</a>
-                <a href="/" className="nav-link">About</a>
-            </div>
-        </div>
+
+        <Header />
     
         <div className="hero-body">
             <h1 className='hero-content'><span className='fade-in'>Further developing </span><br/><span className='neon'>innovative</span><br/><span className='fade-in'> medical technologies</span></h1>

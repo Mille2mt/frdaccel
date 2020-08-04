@@ -12,6 +12,10 @@
     margin-bottom: 0px; 
 }
 
+.brandTitle {
+    font-family: 'Marck Script', cursive;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -122,3 +126,100 @@
     100% {opacity:1;}
 }
 
+.stats {
+    background: #f5f5f5;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+.card {
+    margin-bottom: 5rem;
+}
+
+.title {
+    padding-top: 10rem;   
+}
+
+.header {
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.neonDark {
+    color: #000;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+}
+
+h2.number {
+    font-size: 5rem;
+    font-weight: 600;
+    padding-bottom: 0;
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+.services {
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    width: 100%;    
+}
+
+.services-title {
+    border-bottom: 2px solid rgb(0, 131, 144);
+    text-align: center;
+    color: #fff;
+}
+
+.services-info {
+    color: #fff;
+    font-size: 2rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+    
+}
+
+.services-card {
+    color: #fff;
+    text-align: center;
+}
+
+.services-card-title {
+    text-shadow: 3px 3px rgb(0, 131, 144);
+}
+
+.services-subtitle {
+    padding-bottom: 4rem;
+}
+
+.footer {
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.brandLogo-footer {
+    color: #000;
+    font-weight: 700;    
+    margin-bottom: 0px; 
+}
+  
+.copyright {
+    align-items: center;
+}
