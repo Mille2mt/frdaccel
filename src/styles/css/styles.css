@@ -219,7 +219,16 @@ h2.number {
     font-weight: 700;    
     margin-bottom: 0px; 
 }
+
+.footer-list {
+    list-style-type: none;
+}
   
 .copyright {
-    align-items: center;
+    padding: auto 0;
+}
+
+.footer-button {
+    background: rgb(0, 131, 144);
+    color: #fff;
 }
