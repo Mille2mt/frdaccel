@@ -51,7 +51,7 @@
 }
 
 .hero-content {
-    padding: 30vh 15px 0 15px;
+    padding: 25vh 15px;
     text-align: center;
     text-shadow: 3px 3px rgb(0, 131, 144);
     color: #fff;
@@ -74,15 +74,15 @@
     animation: translateY 1s infinite;
     animation-direction: alternate;
     bottom: 0;    
-    margin-bottom: -4rem;
     text-align: center;
     position: absolute;
     width: 100%;
 }
 
 .caron {
-    font-size: 90px;
     color: #fff;    
+    font-size: 40px;
+    
 }
 
 @keyframes translateY {
