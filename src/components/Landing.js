@@ -13,6 +13,7 @@ const Landing = () => (
         <div className='arrowDown'>
             <span className="caron">&#9661;</span>
         </div>
+        
     </div>
 )
 

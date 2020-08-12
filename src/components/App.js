@@ -9,10 +9,10 @@ export default class App extends Component {
         return (
             <div>
                 <Landing />
-                <Stats />
+                <Stats />      
                 <Services />
                 <Footer />
             </div>
         )
     }
-}
+};

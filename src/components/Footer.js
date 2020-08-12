@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Footer = () => (
-    <div class="footer">
-        <div class="container">
-            <div class="row">
+    <div className="footer">
+        <div className="container">
+            <div className="row">
                 <h3 className='brandLogo-footer four columns'>FRD <span className='brandTitle'>Accel</span></h3>   
                 <div className='four columns'>
                     <li className='footer-list'>Charleston, South Carolina</li>                 
