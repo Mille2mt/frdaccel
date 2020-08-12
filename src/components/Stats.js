@@ -10,21 +10,21 @@ const Stats = () => (
                 <div className="stats-content">    
 
                     <LazyLoad offset={-100} height={250}> 
-                        <div className="cardOne card four columns animate__animated animate__fadeInTopLeft">                            
+                        <div className="cardOne card four columns animate__animated animate__fadeInLeft">                            
                             <h2 className="number ">3</h2>
                             <p className="subtitle">Projects fast-tracked</p>                    
                         </div>  
                     </LazyLoad>
 
                     <LazyLoad offset={-250} height={250}>
-                        <div className="cardTwo card four columns animate__animated animate__fadeInTopLeft">
+                        <div className="cardTwo card four columns animate__animated animate__fadeInLeft">
                             <h2 className="number ">12</h2>
                             <p className="subtitle">Advisors</p>
                         </div>
                     </LazyLoad>
 
                     <LazyLoad offset={-400} height={250}>
-                        <div className="cardThree card four columns animate__animated animate__fadeInTopLeft">
+                        <div className="cardThree card four columns animate__animated animate__fadeInLeft">
                             <h2 className="number ">$873,193+</h2>
                             <p className="subtitle">Revenue produced</p>
                         </div>
