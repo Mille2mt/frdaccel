@@ -244,3 +244,21 @@ h2.number {
     background: rgb(0, 131, 144);
     color: #fff;
 }
+
+@-webkit-keyframes fadeInLeft { 
+    0% {
+        opacity: 0;
+        -webkit-transform-origin: 0 0;
+        -webkit-transform: translate3d(-3000px, 0, 0);
+        transform: translate3d(-3000px, 0, 0);
+    }
+}
+
+@-webkit-keyframes fadeInDown { 
+    0% {
+        opacity: 0;
+        -webkit-transform-origin: 0 0;
+        -webkit-transform: translate3d(0, 0, 0, -3000px);
+        transform: translate3d(0, 0, 0, -3000px);
+    }
+}

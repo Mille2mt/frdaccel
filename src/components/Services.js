@@ -15,23 +15,37 @@ const Services = () => (
                     </div>
                 </LazyLoad>
 
-                <LazyLoad offset={-250}>
+                <LazyLoad offset={-150}>
                     <div className="services-card four columns animate__animated animate__fadeInDown">
                         <div className="item">
                             <h2 className='services-card-title'>Projects</h2>
                             <p className='services-subtitle'>item subtitle</p>
                         </div>
-                        <div className="item">
-                            <h2 className='services-card-title'>Media</h2>
-                            <p className='services-subtitle'>item subtitle</p>
-                        </div>
                     </div>
                 </LazyLoad>
+
+                <LazyLoad offset={-250} throttle={500}>
+                    <div className="services-card four columns animate__animated animate__fadeInDown">
+                        <div className="item">
+                            <h2 className='services-card-title'>Marketing</h2>
+                            <p className='services-subtitle'>item subtitle</p>
+                        </div>
+                    </div> 
+                </LazyLoad>  
 
                 <LazyLoad offset={-350} throttle={500}>
                     <div className="services-card four columns animate__animated animate__fadeInDown">
                         <div className="item">
-                            <h2 className='services-card-title'>Marketing</h2>
+                            <h2 className='services-card-title'>Media</h2>
+                            <p className='services-subtitle'>item subtitle</p>
+                        </div>
+                    </div> 
+                </LazyLoad>  
+
+                <LazyLoad offset={-450} throttle={500}>
+                    <div className="services-card four columns animate__animated animate__fadeInDown">
+                        <div className="item">
+                            <h2 className='services-card-title'>Consumers</h2>
                             <p className='services-subtitle'>item subtitle</p>
                         </div>
                     </div> 

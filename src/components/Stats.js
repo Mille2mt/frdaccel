@@ -23,7 +23,7 @@ const Stats = () => (
                         </div>
                     </LazyLoad>
 
-                    <LazyLoad offset={-400} height={250}>
+                    <LazyLoad offset={-350} height={250}>
                         <div className="cardThree card four columns animate__animated animate__fadeInLeft">
                             <h2 className="number ">$873,193+</h2>
                             <p className="subtitle">Revenue produced</p>
