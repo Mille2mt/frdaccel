@@ -1,22 +1,30 @@
 import React from 'react';
 import LazyLoad from 'react-lazyload';
 
-const Services = () => (
-    <LazyLoad offset={800} once>
+const Services = () => {
 
-    <div className='services'>
+const imgUrl = 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'
+const divStyle = {
+    backgroundImage: 'url(' + imgUrl + ')'
+    }
+
+return (
+
+<LazyLoad offset={400}>
+
+    <div className='services' style={divStyle}>
         <div className="container">
             <div className="row">
 
-                <LazyLoad offset={-100}>
-                    <div className="services-card four columns  animate__animated animate__fadeInLeft">
+                <LazyLoad offset={-100} height={300}>
+                    <div className="services-card four columns animated fadeInLeft">
                         <h4 className="services-title">Our services</h4>
                         <p className="services-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime delectus harum incidunt enim fugiat facilis itaque, labore dolor tempora voluptate in minus esse et consequatur, eum commodi impedit mollitia iusto.</p>
                     </div>
                 </LazyLoad>
 
-                <LazyLoad offset={-150}>
-                    <div className="services-card four columns animate__animated animate__fadeInDown">
+                <LazyLoad offset={-275}>
+                    <div className="services-card four columns animated fadeInDown">
                         <div className="item">
                             <h2 className='services-card-title'>Projects</h2>
                             <p className='services-subtitle'>item subtitle</p>
@@ -24,8 +32,8 @@ const Services = () => (
                     </div>
                 </LazyLoad>
 
-                <LazyLoad offset={-250} throttle={500}>
-                    <div className="services-card four columns animate__animated animate__fadeInDown">
+                <LazyLoad offset={-300}>
+                    <div className="services-card four columns animated fadeInDown">
                         <div className="item">
                             <h2 className='services-card-title'>Marketing</h2>
                             <p className='services-subtitle'>item subtitle</p>
@@ -33,19 +41,10 @@ const Services = () => (
                     </div> 
                 </LazyLoad>  
 
-                <LazyLoad offset={-350} throttle={500}>
-                    <div className="services-card four columns animate__animated animate__fadeInDown">
+                <LazyLoad offset={-325}>
+                    <div className="services-card four columns animated fadeInDown">
                         <div className="item">
                             <h2 className='services-card-title'>Media</h2>
-                            <p className='services-subtitle'>item subtitle</p>
-                        </div>
-                    </div> 
-                </LazyLoad>  
-
-                <LazyLoad offset={-450} throttle={500}>
-                    <div className="services-card four columns animate__animated animate__fadeInDown">
-                        <div className="item">
-                            <h2 className='services-card-title'>Consumers</h2>
                             <p className='services-subtitle'>item subtitle</p>
                         </div>
                     </div> 
@@ -54,7 +53,8 @@ const Services = () => (
             </div>
         </div>
     </div>
-    </LazyLoad>
-);
+</LazyLoad>
+)
+};
 
 export default Services;
