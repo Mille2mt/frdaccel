@@ -23,7 +23,7 @@ return (
                     </div>
                 </LazyLoad>
 
-                <LazyLoad offset={-275}>
+                <LazyLoad offset={-275} debounce={true} throttle={500}>
                     <div className="services-card four columns animated fadeInDown">
                         <div className="item">
                             <h2 className='services-card-title'>Projects</h2>
@@ -32,7 +32,7 @@ return (
                     </div>
                 </LazyLoad>
 
-                <LazyLoad offset={-300}>
+                <LazyLoad offset={-300} debounce={true} throttle={500}>
                     <div className="services-card four columns animated fadeInDown">
                         <div className="item">
                             <h2 className='services-card-title'>Marketing</h2>
@@ -41,7 +41,7 @@ return (
                     </div> 
                 </LazyLoad>  
 
-                <LazyLoad offset={-325}>
+                <LazyLoad offset={-325} debounce={true} throttle={500}>
                     <div className="services-card four columns animated fadeInDown">
                         <div className="item">
                             <h2 className='services-card-title'>Media</h2>
