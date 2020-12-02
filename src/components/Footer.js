@@ -10,7 +10,7 @@ const Footer = () => (
                     <li className='footer-list'>Charleston, SC 29425</li>                 
                     <button className='footer-button'><a className="footer-button-email" target="_blank" rel="noopener noreferrer" href="mailto: exlubesk@musc.edu">Email us</a></button> 
                 </div>
-                <span className='copyright four columns'>&copy; 2020</span>   
+                <span className='copyright four columns'>&copy; 2020 FRD Accel, LLC <br></br>All Rights Reserved</span>   
             </div>
         </div>
     </div>

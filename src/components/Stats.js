@@ -13,7 +13,7 @@ const Stats = () => (
                     <LazyLoad offset={-100} height={225}> 
                         <div className="cardOne card twelve columns animated fadeInLeft">                            
                             
-                            <p className="subtitle">At FRD Accel, our mission is to commercialize biomedical technologies that fulfill critical unmet medical needs. Utilizing skilled teams of professionals with clinical, research and business expertise, we obtain funding to move technologies through the valley of death for product launch or strategic  &nbsp; &nbsp; out-licensing.</p>                    
+                            <p className="subtitle">At FRD Accel, our mission is to commercialize biomedical technologies that fulfill critical unmet medical needs. Utilizing skilled teams of professionals with clinical, research and business expertise, we obtain funding to move technologies through the valley of death for product launch or strategic out-licensing.</p>                    
                         </div>  
                     </LazyLoad>
                    
